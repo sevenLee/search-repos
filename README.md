@@ -2,6 +2,13 @@
 
 In this app, it demonstrates GitHub repositories based on a specific name entered by the user in the search bar. Upon receiving the input, the app immediately queries the GitHub GraphQL server to retrieve the corresponding repositories. Users can also perform infinite scrolling in the repository list to access more related repositories. By default, the app displays all repositories related to React.
 
+## GITHUB TOKEN Protection
+Due to personal data protection, GitHub prohibits the inclusion of tokens in source code. Please utilize the token I have provided to complete the .env file, which will enable successful API requests.
+```
+VITE_GITHUB_TOKEN=TOKEN
+```
+
+
 ## Stacks & Tools
 - React
 - Yarn
